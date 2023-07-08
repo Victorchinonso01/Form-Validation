@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="formDiv">
+        <form>
+          <h3 style="text-align: center">Log in</h3>
+          <div>
+            <label>Email:</label><br />
+            <input class="input" type="email" id="email" />
+          </div>
+          <p style="color: red; display: none;" id="error">email or password incorect</p>
+          <div>
+            <label>Password:</label><br />
+            <input class="input" type="password" id="password" />
+          </div>
+           <button id="button" onclick="click">Sign in</button>
+            <p style="text-align: right">
+            <a href="forgot.html" class="forgot">Forgotten Password</a>
+          </p>
+          <p style="text-align: right">
+            Don't have an account <a href="index.html" class="forgot">Signup</a>
+          </p>
+        </form>
+      </div>
+    </main>
+
+    <script src="login.js"></script>
+  </body>
+</html>
